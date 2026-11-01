@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PyTest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model Checkpoints, Weights & Large Artifacts (DO NOT PUSH TO GITHUB)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Datasets and cache directories
+data/
+datasets/
+cache/
+.cache/
+*.parquet
+*.arrow
+*.tar.gz
+*.zip
+
+# Tracking / Experiment logs (Wandb, Tensorboard)
+wandb/
+runs/
+
+# Explicitly keep Markdown logs in the repo
+!logs/*.md
+!logs/**/*.md
